@@ -147,7 +147,7 @@ const DossierItemView = ({ item }: { item: DossierItem }) => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="w-full mt-2 text-[10px] text-center block py-1 transition-colors border border-dashed rounded text-emerald-400 border-emerald-500/30 hover:bg-emerald-500/10 cursor-pointer"
-                                    onClick={(e) => {
+                                    onClick={() => {
                                         // Allow default behavior but ensure target="_blank" handles it or use the download attribute
                                     }}
                                 >
